@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+h2 {
+    
+    line-height: 5rem;
+}
+.choice{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+      font-size: 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.choice:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.score {
+      margin-top: 5rem;
+      font-size: 1.2rem;
+}
+.result {
+      margin-top: 30px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #6699ff;
+}
+.restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.restart-btn:hover {
+    background-color: #0056b3;
+}
+.animated-choice {
+    animation: choiceAnimation 1s ease-in-out;
+}
+@keyframes choiceAnimation {
+    0% { transform: scale(0.8); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
