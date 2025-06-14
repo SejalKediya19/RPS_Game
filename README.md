@@ -17,4 +17,3 @@ A fun and interactive **Rock Paper Scissors** game built using **HTML, CSS, and 
    - Scissors beats Paper
    - Paper beats Rock
 4. Scores are updated, and a result message is shown.
-
